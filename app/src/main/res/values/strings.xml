@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">MyApp</string>
+    <string name="text1">تسجيل الدخول</string>
+    <string name="text2"> بسم الله الرحمن الرحيم</string>
+    <string name="text3">  بِسْمِ اللَّهِ الَّذِي لَا يَضُرُّ مَعَ اسْمِهِ شَيْءٌ
+        فِي الْأَرْضِ وَلَا فِي السَّمَاءِ وَهُوَ
+                                      السَّمِيعُ الْعَلِيمُ</string>
+    <string-array name="azkar">
+        <item> c</item>
+        <item> اذكار المساء</item>
+        <item> اذكار النوم</item>
+        <item> اذكار الدخول للمسجد</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".homepage"
+    android:orientation="vertical"
+    android:background="@drawable/backg"
+    >
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:text="@string/text1"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:padding="10dp"
+
+        />
+
+
+    <LinearLayout
+        android:layout_width="250dp"
+        android:layout_height="368dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:background="#B3B7E8"
+        >
+
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="135dp"
+            android:layout_height="101dp"
+            android:src="@drawable/login" />
+
+        <EditText
+            android:id="@+id/edt_name"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:background="#5F9EA0"
+            android:drawableRight="@drawable/ic_baseline_supervised_user_circle_24"
+            android:ems="10"
+            android:hint="اسم المستخدم"
+            android:inputType="textPersonName"
+            android:textColor="@color/black"
+
+
+
+
+
+            />
+
+
+
+        <EditText
+            android:id="@+id/edt_pass"
+            android:layout_width="250dp"
+            android:layout_height="35dp"
+            android:background="#5F9EA0"
+            android:drawableRight="@drawable/ic_baseline_lock_24"
+            android:hint="كلمة المرور"
+            android:ems="10"
+           android:inputType="textPassword"
+            android:textColor="@color/black"
+            android:gravity="right"
+
+
+
+
+            />
+
+
+        <CheckBox
+            android:id="@+id/checkBox"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:textAlignment="inherit"
+            android:text="هل تريد حفظ بياناتك؟"
+            android:textColor="@color/black"
+            />
+
+        <Button
+            android:id="@+id/logo"
+            android:layout_width="218dp"
+            android:layout_height="45dp"
+            android:layout_gravity="center"
+            android:layout_margin="17dp"
+            android:text="تسجيل "
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:background="#00BFFF	"
+            android:focusable="true"
+
+            />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
